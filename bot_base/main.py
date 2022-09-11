@@ -2,9 +2,8 @@ import asyncio, os, random
 from business_logic import parse_weather
 from telegram import Bot, Update, Chat, StickerSet
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
-TELEGRAM_TOKEN='5609104578:AAFY39LivBned4TeX9CUD1z3KyP_Gq90Z44'
 
-# TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 bot = Bot(token=TELEGRAM_TOKEN)
 
 

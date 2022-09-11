@@ -1,6 +1,6 @@
 import requests,os
-# TOKEN_WEATHER=os.getenv('TOKEN_WEATHER')
-TOKEN_WEATHER='18c029b1-f55c-4c20-8b3e-bbf0636c08ef'
+TOKEN_WEATHER=os.getenv('TOKEN_WEATHER')
+
 
 
 #lat-широта, lon-долгота
