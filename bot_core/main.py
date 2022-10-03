@@ -7,11 +7,12 @@ from commands import (async_gachi,
                       async_ping)
 
 
-is_debug = bool(os.getenv('DEBUG') in ('True', '1'))
-if is_debug:
+if bool(os.getenv('DEBUG') in ('True', '1')):
     logging.basicConfig(level=logging.INFO)
-else:
+elif bool(os.getenv('DEBUG') in ('False', '0')):
     logging.basicConfig(level=logging.WARNING)
+else:
+    raise Exception('INVALID DEBUG MODE PASSED')
 
 
 def init_handlers() -> tuple[CommandHandler]:
