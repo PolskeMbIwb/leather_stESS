@@ -15,7 +15,7 @@
 
 Рядом с main.py должен быть файлик .env, в котором должны быть заданы следующие переменные:
 ```
-  TELEGRAM_TOKEN=   | Токен от BotFather в формате `1234567890:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA`\n
+  TELEGRAM_TOKEN=   | Токен от BotFather в формате `1234567890:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA`
   DEBUG=            | True/False/1/0
 ```
 
