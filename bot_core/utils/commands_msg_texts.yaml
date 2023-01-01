@@ -1,0 +1,15 @@
+ping:
+  en:
+    - "Yes, yes, I'm alive"
+    - "Huh?...What?"
+    - "What's up on repman?"
+  ru:
+    - "Да-да, я жив"
+    - "А?...Что?"
+    - "Чо по репману"
+
+gachi:
+  en:
+    - "Where to love?"
+  ru:
+    - "Куда любить?"
